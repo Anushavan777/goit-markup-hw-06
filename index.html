@@ -530,7 +530,7 @@
     <!-- <button data-modal-open>Открыть модальное окно</button> -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
+        <b class="modal-text">Оставьте свои данные, мы вам перезвоним</b>
         <button class="closebtn" type="button" data-modal-close>
           <svg class="modal-close-icon" width="11" height="11">
             <use href="./imeges/svg/sprite.svg#icon-close"></use>
@@ -538,28 +538,68 @@
         </button>
 
         <!-- =========== form-title ============== -->
+
+        <!-- 1  -->
         <form class="form-contact" action="">
           <label class="form-label" for="">
-            <p>Имя
-              <input class="form-input" type="text" name="name" />
-                <svg class="form-icon" widht="18" height="18" >
-                  <use href="./imeges/svg/sprite.svg#icon-person-black" ></use>
-                </svg>
-            </p>
+            <p>Имя</p>
+            <input class="form-input" type="text" name="name" />
+            <svg class="form-icon" width="18" height="18">
+              <use href="./imeges/svg/sprite.svg#icon-person-black"></use>
+            </svg>
           </label>
-          
+
+          <!-- 2 -->
+
           <label class="form-label" for="">
             <p>Телефон</p>
-            <input class="form-input" type="text" name="name">
+            <input class="form-input" type="text" name="name" />
+            <svg class="form-icon" width="18" height="18">
+              <use href="./imeges/svg/sprite.svg#icon-phone-black"></use>
+            </svg>
           </label>
+
+          <!-- 3 -->
+
           <label class="form-label" for="">
             <p>Почта</p>
-            <input class="form-input" type="text" name="name">
+            <input class="form-input" type="text" name="name" />
+            <svg class="form-icon" width="18" height="18">
+              <use href="./imeges/svg/sprite.svg#icon-email-black"></use>
+            </svg>
           </label>
+
+          <!-- 4 -->
+
           <label class="form-comments" for="">
             <p>Комментарий</p>
-            <p class="input-form-container"> 
-               <textarea class="form-textarea" name="comments" id="" cols="30" rows="10" placeholder="Введите текст" ></textarea>
+            <p class="input-form-container">
+              <textarea
+                class="form-textarea"
+                name="comments"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Введите текст"
+              ></textarea>
+            </p>
+          </label>
+
+          <!-- check-box -->
+
+          <label class="checkbox-label form-label" for="">
+            <input
+              class="checkbox-input visually-hidden"
+              type="checkbox"
+              name="checkbox"
+              tabindex="-1"
+            />
+            <p class="check-box">
+              <svg class="chekbox-icon" width="18" height="18">
+                <use href="./imeges/svg/sprite.svg#icon-checkbox"></use>
+              </svg>
+              Соглашаюсь с рассылкой и принимаю 
+             <a href="">Условия договора</a> 
             </p>
           </label>
         </form>
