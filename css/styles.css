@@ -773,6 +773,18 @@ body {
   display: block;
 }
 
+.custom-checkbox {
+  display: flex;
+  width: 16px;
+  height: 15px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  margin-right: 7px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* index footer */
 .address {
   font-style: normal;
