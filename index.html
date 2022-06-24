@@ -19,11 +19,12 @@
   </head>
   <body class="body">
     <!-- шапка сайта header -->
-    <header class="header-page">
+    <header class="header -page">
       <div class="container header-container">
         <nav class="navigation">
           <a class="logo" href="index.html" lang="en">
-            Web<span class="logo-title-right">Studio</span>
+            Web
+            <span class="logo-title-right">Studio</span>
           </a>
           <ul class="list navigation-list">
             <li class="item">
@@ -59,7 +60,7 @@
     </header>
 
     <!-- Hero -->
-    <main class="">
+    <main>
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">
@@ -434,7 +435,8 @@
       <div class="container footer-container">
         <div class="footer-div1">
           <a class="logo" href="index.html">
-            Web<span class="footer-logo-title-right">Studio</span>
+            Web
+            <span class="footer-logo-title-right">Studio</span>
           </a>
           <address class="address">
             <ul class="list footer-contacts-list">
@@ -507,8 +509,8 @@
 
         <div class="footer-form">
           <h3 class="join-title">Подпишитесь на рассылку</h3>
-          <form class="singup_form" action="">
-            <label class="singup_label" for="">
+          <form class="singup_form">
+            <label class="singup_label">
               <input
                 class="text_form"
                 type="email"
@@ -540,56 +542,62 @@
         <!-- =========== form-title ============== -->
 
         <!-- 1  -->
-        <form class="form-modal" action="">
-          <label class="form-label" for="">
-            <span class="form-modal-lable">Имя</span>
+        <form class="form-modal">
+          <label class="form-label" >
+            <span class="modal-position">
+              <span class="form-modal-lable">Имя</span>
 
-            <input class="form-input" type="text" name="user-name" />
+              <input class="form-input" type="text" name="user-name" />
 
-            <svg class="form-icon" width="18" height="18">
-              <use href="./imeges/svg/sprite.svg#icon-person-black"></use>
-            </svg>
+              <svg class="form-icon" width="18" height="18">
+                <use href="./imeges/svg/sprite.svg#icon-person-black"></use>
+              </svg>
+            </span>
           </label>
 
           <!-- 2 -->
 
-          <label class="form-label" for="">
-            <span class="form-modal-lable">Телефон</span>
+          <label class="form-label">
+            <span class="modal-position">
+              <span class="form-modal-lable">Телефон</span>
 
-            <input class="form-input" type="text" name="name" />
+              <input class="form-input" type="tel" name="name" />
 
-            <svg class="form-icon" width="18" height="18">
-              <use href="./imeges/svg/sprite.svg#icon-phone-black"></use>
-            </svg>
+              <svg class="form-icon" width="18" height="18">
+                <use href="./imeges/svg/sprite.svg#icon-phone-black"></use>
+              </svg>
+            </span>
           </label>
 
           <!-- 3 -->
 
-          <label class="form-label" for="">
-            <span class="form-modal-lable">Почта</span>
+          <label class="form-label" >
+            <span class="modal-position">
+              <span class="form-modal-lable">Почта</span>
 
-            <input class="form-input" type="text" name="name" />
+              <input class="form-input" type="email" name="name" />
 
-            <svg class="form-icon" width="18" height="18">
-              <use href="./imeges/svg/sprite.svg#icon-email-black"></use>
-            </svg>
+              <svg class="form-icon" width="18" height="18">
+                <use href="./imeges/svg/sprite.svg#icon-email-black"></use>
+              </svg>
+            </span>
           </label>
 
           <!-- 4 -->
 
-          <label class="form-comments" for="">
-            <p class="form-modal-lable">Комментарий</p>
+          <label class="form-comments">
+            <span class="form-modal-lable">Комментарий</span>
 
-            <p class="input-form-container">
+            <span class="input-form-container">
               <textarea
                 class="form-textarea"
                 name="comments"
-                id=""
+                id="#"
                 cols="30"
                 rows="10"
                 placeholder="Введите текст"
               ></textarea>
-            </p>
+            </span>
           </label>
 
           <!-- checkbox -->
@@ -604,7 +612,7 @@
             <!-- visually-hidden -->
 
             <span class="custom-checkbox" tabindex="0">
-              <svg class="chekbox-icon" width="15" height="16">
+              <svg class="chekbox-icon" width="11" height="8">
                 <use href="./imeges/svg/sprite.svg#icon-vector"></use>
               </svg>
             </span>
@@ -618,7 +626,7 @@
           <button class="checkbox-btn" type="submit">Отправить</button>
         </form>
 
-        <form action="">
+        <!-- <form action="">
           <label class="check">
             <input class="checkbox__input" type="checkbox" />
             первый
@@ -630,7 +638,7 @@
           </label>
 
           <label class="check">
-            <input class="checkbox__input" type="checkbox" disabled/>
+            <input class="checkbox__input" type="checkbox" disabled />
             первый
           </label>
 
@@ -638,9 +646,7 @@
             <input class="checkbox__input" type="checkbox" checked disabled />
             первый
           </label>
-
-
-        </form>
+        </form> -->
       </div>
     </div>
     <script src="./js/modal.js"></script>
