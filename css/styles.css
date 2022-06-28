@@ -39,7 +39,9 @@ h2,
 h3,
 h4,
 ul,
-p {
+p,
+b
+ {
   margin: 0;
   padding: 0;
 }
@@ -169,7 +171,7 @@ body {
 
 .is-hidden {
   opacity: 0;
-  visibility: hidden;
+  visibility:hidden;
   pointer-events: none;
 }
 
@@ -193,7 +195,7 @@ body {
   opacity: 0;
 }
 
-.closebtn {
+.closebtn { 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -720,12 +722,7 @@ PORTFOLIO ============
   border-radius: 4px;
 }
 
-.text_form::placeholder {
-  color: var(--input-text-color-gray);
-  /* font-weight: 400; */
-  font-size: 16px;
-  line-height: 1.25em;
-}
+
 
 .singup_btn {
   min-width: 200px;
@@ -773,16 +770,16 @@ PORTFOLIO ============
 }
 
 .form-modal-lable {
-
+  display: block;
   margin-bottom: 4px;
   font-size: 12px;
-  line-height: 1.16px;
+  line-height: 1.16;
   letter-spacing: 0.01em;
 }
 
 .form-input {
-  width: 100%;
-  height: 100%;
+  width: 448px;
+  height: 40px;
   padding: 12px 15px;
   padding-left: 42px;
   line-height: 14px;
@@ -799,9 +796,6 @@ PORTFOLIO ============
   margin-bottom: 20px;
 }
 
-textarea::placeholder {
-  color: rgba(117, 117, 117, 0.5);
-}
 
 .form-textarea {
   display: flex;
@@ -817,7 +811,7 @@ textarea::placeholder {
   transition: var(--transition);
 }
 
-.form-textarea::placeholder {
+.textarea::placeholder {
   color: var(--textarea-color-gray);
 }
 
