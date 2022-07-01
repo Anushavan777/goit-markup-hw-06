@@ -8,8 +8,8 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
-  --input-text-color-gray: color: rgba(255, 255, 255, 0.6);
-  --textarea-color-gray: color: rgba(117, 117, 117, 0.5);
+  --input-text-color-gray: rgba(255, 255, 255, 0.6);
+  --textarea-color-gray: rgba(117, 117, 117, 0.5);
 
   /* Цвета заливки */
   --primary-background: #ffffff;
@@ -808,11 +808,16 @@ PORTFOLIO ============
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: transparent;
-  transition: var(--transition);}
-
-.textarea::placeholder {
-  color: var(--textarea-color-gray);
+  transition: var(--transition);
 }
+
+
+.form-textarea::placeholder {
+  color: var(--textarea-color-gray);
+  font-size: 16px;
+  line-height: 1.25em;
+}
+
 
 .form-textarea:focus,
 .form-textarea:hover {
